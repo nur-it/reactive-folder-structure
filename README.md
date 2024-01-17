@@ -8,6 +8,8 @@ This documentation provides an overview of the recommended folder structure for 
 2. Folder Structure
    - assets
    - components
+     - screen
+     - shared
    - lib
    - services
    - context
