@@ -1,3 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  scroll-behavior: smooth scroll;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.container_fluid {
+  @apply max-w-full 2xl:max-w-[1280px] px-4 lg:px-10 2xl:mx-auto 2xl:px-0;
+}
+
+.h1 {
+  @apply text-[32px] md:text-5xl xl:text-[64px] leading-[42px] md:leading-[58px] xl:leading-[78px] -tracking-[0.5px] xl:-tracking-[2.3px] font-semibold;
+}
+
+.h3 {
+  @apply text-[32px] lg:text-4xl leading-[42px] lg:leading-[48px] -tracking-[0.5px] lg:-tracking-[1px] font-semibold;
+}
